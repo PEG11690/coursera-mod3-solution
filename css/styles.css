@@ -1,0 +1,98 @@
+    /*Start General Styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+    /*End General Styles*/
+
+    /*Start Header Styles*/
+header, .navbar, .container-fluid{
+    background-color: #AA5755;
+}
+.navbar-brand {
+    font-size: 1.75em;
+    text-shadow: 1px 1px black;
+    color: antiquewhite;
+}
+
+.nav-item a {
+        text-align:center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.25em;
+        color: antiquewhite;
+    }
+.navbar-toggler:hover, .nav-item:hover {
+        background-color: antiquewhite;
+    }
+.navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    /*border: #55A8AA;*/
+}
+button.navbar-toggler {
+    border: 2px solid black;
+    box-shadow: none;
+}
+    /*End Header Styles*/
+
+    /*Start Main Section Styles*/
+
+.menu-tile {
+    border: 2px solid black;
+    box-shadow: 1px 1px black;
+    margin-top: 20px;
+    width: 100%;
+    height: 1000px;
+}
+h2 {
+    font-weight: bolder;
+}
+h2 {
+    font-weight: bold;
+}
+    /*End Main Section Styles*/
+
+    /*Start Desktop and Tablet (md and larger) Styles*/
+@media (min-width: 768px) {
+
+    /*Start Header Styles*/
+
+    /*End Header Styles*/
+
+    /*Start Main Section Styles*/
+
+    /*End Main Section Styles*/
+    /*End Desktop and Tablet Styles*/
+
+    /*Start Mobile (xs + sm) Styles*/
+}
+@media (max-width: 767px) {
+
+    /*Start Header Styles*/
+
+    /*End Header Styles*/
+
+    /*Start Main Section Styles*/
+
+    /*End Main Section Styles*/
+    /*End Header Styles*/
+}
+
+/* To deal with margin at the lowest range*/
+@media (max-width: 575px) {
+
+
+    /*Start Main Section Styles*/
+
+.container {
+    max-width: 420px;
+}
+
+    /*End Main Section Styles*/
+    /*End Header Styles*/
+}
